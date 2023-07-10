@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => WeatherBloc(),
       child: MaterialApp(
-        title: 'Weather App',
+        title: 'Weather App Making Some Changes',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
