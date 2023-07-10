@@ -12,7 +12,7 @@ class WeatherScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Weather App'),
+        title: Text('Weather App Try'),
       ),
       body: Center(
         child: BlocBuilder<WeatherBloc, WeatherModel>(
